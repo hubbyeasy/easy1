@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    height: 50px;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: blue;
+
+}
+.easy{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.About-body:hover .About-content{
+    display: block;
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+.About-content{
+    background-color: aqua;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 0% 10px;
+    border-radius: 10px;
+    border: 1.5px solid green;
+    display: none;
+}
+
+.Programme-body:hover .Programme-content{
+    display: block;
+    filter: drop-shadow(0px 0px 10px black);
+}
+.Programme-content{
+    background-color: aquamarine;
+    line-height: 30px;
+    font-weight: 600;
+    padding: 0% 10px;
+    border-radius: 10px;
+    border: 1.5px solid green;
+    display: none;
+}
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+body{
+    margin: 0px;
+    padding: 50px;
+}
+.container{
+    position: relative;
+    width: 100;
+    height: 100;
+}
+img{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+.tunde{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
